@@ -36,13 +36,13 @@ class Menu:
         numberOfDrinks = drinkList.count('Coffee')
 
         if numberOfSides > 1:
-            sideList = list(set(sideList))
+            # sideList = list(set(sideList))
             string = sideList[0] + '(' + str(numberOfSides) + ')'
             sideList.clear()
             sideList.append(string)
 
         if numberOfDrinks > 1:
-            drinkList = list(set(drinkList))
+            # drinkList = list(set(drinkList))
             string = drinkList[0] + '(' + str(numberOfDrinks) + ')'
             drinkList.clear()
             drinkList.append(string)
@@ -83,13 +83,13 @@ class Menu:
         numberOfDrinks = drinkList.count('Soda')
 
         if numberOfSides > 1:
-            sideList = list(set(sideList))
+            # sideList = list(set(sideList))
             string = sideList[0] + '(' + str(numberOfSides) + ')'
             sideList.clear()
             sideList.append(string)
 
         if numberOfDrinks > 1:
-            drinkList = list(set(drinkList))
+            # drinkList = list(set(drinkList))
             string = drinkList[0] + '(' + str(numberOfDrinks) + ')'
             drinkList.clear()
             drinkList.append(string)
@@ -134,13 +134,13 @@ class Menu:
         numberOfDrinks = drinkList.count('Wine')
 
         if numberOfSides > 1:
-            sideList = list(set(sideList))
+            # sideList = list(set(sideList))
             string = sideList[0] + '(' + str(numberOfSides) + ')'
             sideList.clear()
             sideList.append(string)
 
         if numberOfDrinks > 1:
-            drinkList = list(set(drinkList))
+            # drinkList = list(set(drinkList))
             string = drinkList[0] + '(' + str(numberOfDrinks) + ')'
             drinkList.clear()
             drinkList.append(string)
