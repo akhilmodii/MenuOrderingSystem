@@ -1,5 +1,5 @@
 import unittest
-from Src import MenuSystem
+import MenuSystem
 
 
 class TestMenuSystem(unittest.TestCase):

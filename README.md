@@ -16,6 +16,7 @@ the need of any external dependecies. It shouldn't have a problem running on any
 your choice.
 The code could also be run on a terminal given that Python is installed on your computer. 
 Simply navigate to the directory containing the source code file (MenuSystem.py) and execute the command python MenuSystem.py
+To run the tests, navigate to the directory and execute the command python -m unittest discover
 
 Files:
 Source code file - MenuSystem.py
